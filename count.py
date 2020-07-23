@@ -8,13 +8,13 @@ digit = 0
 other = 0
 for c in s:
     if c.isalpha():
-        letter+=1
+        letter += 1
     elif c.isspace():
-        space+=1
+        space += 1
     elif c.isdigit():
-        digit+=1
+        digit += 1
     else:
-        other+=1
+        other += 1
 print('There are %d letters,%d spaces,%d digits '
       'and %d other characters in your string'
-      %(letter,space,digit,other))
+      % (letter, space, digit, other))
