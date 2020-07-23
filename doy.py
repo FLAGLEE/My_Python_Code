@@ -1,4 +1,4 @@
-# 输入某年某月，判断这一天是这一年的第几天？
+# 输入某年某月，判断这一天是这一年的第几天
 import datetime
 
 dtstr = input('Enter the datetime:(20200723):')
