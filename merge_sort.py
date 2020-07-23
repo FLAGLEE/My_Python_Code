@@ -2,10 +2,11 @@
 # 归并排序
 import random
 
+
 def merge_sort(data_list):
     if len(data_list) <= 1:
         return data_list
-    middle = int(len(data_list)/2)
+    middle = int(len(data_list) / 2)
     left = merge_sort(data_list[:middle])
     right = merge_sort(data_list[middle:])
     merged = []
@@ -14,7 +15,8 @@ def merge_sort(data_list):
     merged.extend(right if right else left)
     return merged
 
-data_list = [random.randint(1,100) for _ in range(50)]
+
+data_list = [random.randint(1, 100) for _ in range(50)]
 print("random datalist is:")
 print(data_list)
 print("merge sort datalist is:")
