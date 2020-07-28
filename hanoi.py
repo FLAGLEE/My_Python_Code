@@ -15,8 +15,9 @@ def hanoi(n, a, b, c):
         hanoi(n - 1, b, a, c)
 
 # 调用
-x=int(input("请输入片的个数："))
-print("需要移动",f(x),"次")
-print("移动方式：")
-hanoi(x, 'A', 'B', 'C')
+if __name__=='__main__':
+    x=int(input("请输入片的个数："))
+    print("需要移动",f(x),"次")
+    print("移动方式：")
+    hanoi(x, 'A', 'B', 'C')
 
