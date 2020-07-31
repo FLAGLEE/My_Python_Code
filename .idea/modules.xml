@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/My_Python_Code.iml" filepath="$PROJECT_DIR$/.idea/My_Python_Code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Python_Mario/.idea/Python_Mario.iml" filepath="$PROJECT_DIR$/../Python_Mario/.idea/Python_Mario.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TEST_pyside2/.idea/TEST_pyside2.iml" filepath="$PROJECT_DIR$/../TEST_pyside2/.idea/TEST_pyside2.iml" />
     </modules>
   </component>
 </project>
