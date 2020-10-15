@@ -55,10 +55,15 @@ def xyz2enu(XYZ, XYZ0):
     S = np.array([[-sin_p, cos_p, 0], [-sin_l * cos_p, -sin_l * sin_p, cos_l], [cos_l * cos_p, cos_l * sin_p, sin_l]])
     delta = np.array([[XYZ[0] - XYZ0[0]], [XYZ[1] - XYZ0[1]], [XYZ[2] - XYZ0[2]]])
 
-    ENU = []
+    NUE = []
     ENU_2darray = np.dot(S, delta)
     for i in range(3):
-        ENU.append(ENU_2darray[i][0])
+        NUE.append(ENU_2darray[i][0])
+
+    ENU=[]
+    ENU.append(NUE[2])
+    ENU.append(NUE[0])
+    ENU.append(NUE[1])
 
     return ENU
 
